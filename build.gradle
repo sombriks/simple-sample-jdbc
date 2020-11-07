@@ -1,0 +1,16 @@
+// projeto-banco
+plugins {
+  id 'application'
+}
+
+mainClassName = "sample.banco.Main"
+
+repositories {
+  jcenter() 
+  mavenCentral()
+}
+
+dependencies {
+  // https://mvnrepository.com/artifact/com.h2database/h2
+  compile 'com.h2database:h2:1.4.200'
+}
